@@ -1,9 +1,9 @@
 import cv2
 
 # load some pre-trained data on face frontal from opencv
-trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+trained_face_data = cv2.CascadeClassifier('/home/ing/Desktop/opencv/pythonAI-artificial-intelligent-/haarcascade_frontalface_default.xml')
 # Choose an image to detect faces
-img = cv2.imread('fc.jpg')
+img = cv2.imread('/home/ing/Desktop/opencv/pythonAI-artificial-intelligent-/fc.jpg')
 
 # Must convert to grayscale
 grayscale_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

@@ -2,7 +2,7 @@ import cv2
 from random import randrange
 
 # load some pre-trained data on face frontal from opencv
-trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+trained_face_data = cv2.CascadeClassifier('/home/ing/Desktop/opencv/pythonAI-artificial-intelligent-/haarcascade_frontalface_default.xml')
 # Choose an image to detect faces
 # img = cv2.imread('fc.jpg')
 
@@ -23,10 +23,10 @@ while True:
         cv2.imshow('converted image', home)
         cv2.waitKey(1)
         # Stop if key Q is press
-        #if Key == 83 or Key == 113:
-         #   break
+    #     if Key == 83 or Key == 113:
+    #        break
 
-    # Release the videoCapture object
-            #webcam.release()
+    # # Release the videoCapture object
+    #     webcam.release()
 
-    #print("code completed")
+    # print("code completed")
